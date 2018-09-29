@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
 
-  s.source_files = 'GGImagePicker/*'
+ # s.source_files = 'GGImagePicker/*'
 
-  s.vendored_frameworks = 'Framework.framework'
-  s.frameworks = 'Foundation'
+  s.vendored_frameworks = 'GGImagePicker.framework'
+  s.frameworks = 'Foundation', 'UIKit'
 
 end
