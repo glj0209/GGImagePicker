@@ -1,0 +1,6 @@
+framework module GGImagePicker {
+  umbrella header "GGImagePicker.h"
+
+  export *
+  module * { export * }
+}
